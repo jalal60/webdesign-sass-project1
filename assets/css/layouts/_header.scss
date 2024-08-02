@@ -1,0 +1,39 @@
+/*-------Header CSS--------*/
+
+.header-area {
+    padding: 30px;
+    background: $white_color;
+  }
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .logo {
+        flex-basis: 25%;
+        a{
+            font-size: 30px;
+            font-weight: 600;
+        }
+      }
+      .menu {
+        flex-basis: 70%;
+        ul {
+            display: flex;
+            justify-content: flex-end;
+          }
+          li{
+            a{
+                margin-left: 30px;
+                font-size: 18px;
+                text-transform: capitalize;
+                font-weight: 400;
+                &:hover{
+                    color: $hover_color;
+                }
+            }
+          }
+      }
+
+  }
+  
+ 
